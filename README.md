@@ -12,7 +12,7 @@ In the project directory :
 $ npm i
 ```
 
-### Start the React Native App
+### Start the project
 ``` bash
 $ npm start
 ```
