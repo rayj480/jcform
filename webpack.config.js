@@ -1,12 +1,15 @@
-var webpack = require('webpack');
+'use strict';
+
+const webpack = require('webpack');
 
 module.exports = {
     devtool: 'source-map',
     entry: {
-      index: './index.js'
+      app: __dirname+'/index.js'
     },
     output: {
-        filename: './public/[name].js'
+        path: __dirname + "/public",
+        filename: 'bundle.js'
     },
     module: {
         rules: [
@@ -31,7 +34,8 @@ module.exports = {
     plugins: [
             new webpack.optimize.CommonsChunkPlugin({
                 name: "commons",
-                filename: "./public/commons.js",
+                path: __dirname+"public",
+                filename: "commons.js",
                 minChunks: 2,
             }),
         ],

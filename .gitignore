@@ -60,3 +60,5 @@ typings/
 .env
 
 
+/public/bundle.js*
+/public/commons.js*
