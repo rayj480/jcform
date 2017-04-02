@@ -1,6 +1,7 @@
 import React, {
     PropTypes,
 } from 'react';
+import './scss/index.scss'
 
 const App = React.createClass({
     render() {
