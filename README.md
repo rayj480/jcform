@@ -1,4 +1,4 @@
-# jcform
+# jcForm
 
 ## Requirements
 
@@ -7,12 +7,19 @@
 ## Installation
 
 ### Install project dependencies
-In the project directory :
+In the project directory install dependencies with NPM :
 ``` bash
 $ npm i
 ```
 
-### Start the React Native App
+Or install dependencies with YARN, has you want :
+``` bash
+$ npm i yarn -g
+$ yarn
+```
+
+
+### Start the project
 ``` bash
 $ npm start
 ```
